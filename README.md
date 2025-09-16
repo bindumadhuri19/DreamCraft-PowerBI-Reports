@@ -1,16 +1,16 @@
-Sales Analytics Capstone Project
+## Sales Analytics Capstone Project
 
 Prepared by: Bindu Madhuri Chalasani
 Tools Used: Power BI, Snowflake, SQL, Excel
 Project Type: Power BI Capstone Project (Dual Interactive Dashboards)
 Dataset: Global Sales Data (2003–2005, 326 Orders, 121 Customers)
 
-📌 Project Overview
+📌 **Project Overview**
 
 This capstone project delivers two interactive Power BI dashboards to analyze global sales data (2003–2005).
 The dataset was sourced from a Snowflake data warehouse, transformed with SQL queries, and visualized in Power BI.
 
-The dashboards provide:
+**The dashboards provide:**
 
 Sales Summary Dashboard – Executive-level KPIs and regional trends.
 
@@ -18,7 +18,7 @@ Sales Insight & Performance Dashboard – In-depth analysis of customer behavior
 
 Together, they enable strategic decision-making with dynamic filters and interactive visuals.
 
-🎯 Objectives
+🎯 **Objectives**
 
 Provide a Sales Summary Dashboard for high-level KPIs and trends.
 
@@ -28,7 +28,7 @@ Enable interactive exploration using slicers (year, region, product line, order 
 
 Demonstrate end-to-end BI skills: data extraction → transformation → modeling → visualization.
 
-📂 Dataset Description
+📂 **Dataset Description**
 
 Source: Snowflake Data Warehouse
 
