@@ -40,7 +40,7 @@ Key Attributes: Order ID, Customer Name, Product Line, Order Status, Sales Amoun
 
 Challenges: Inconsistent formats, missing 2003 sales data, aggregation across multiple dimensions
 
-⚙️ Technical Approach
+⚙️ **Technical Approach**
 1. Data Extraction & Transformation
 
 SQL queries in Snowflake for cleaning & aggregation
@@ -49,7 +49,7 @@ Computed sales, profit, profit ratios, and counts
 
 Standardized formats and handled missing values
 
-Sample SQL Query:
+**Sample SQL Query:**
 
 SELECT
     YEAR(order_date) AS order_year,
@@ -61,11 +61,11 @@ SELECT
 FROM sales_data
 GROUP BY YEAR(order_date), product_line, country;
 
-2. Data Modeling
+2. **Data Modeling**
 
 Star Schema in Power BI
 
-DAX Measures:
+**DAX Measures:**
 
 Total Sales → SUM(sales_data[total_sales])
 
@@ -73,7 +73,7 @@ Profit Ratio → DIVIDE(SUM(sales_data[total_profit]), SUM(sales_data[total_sale
 
 Customer Count → DISTINCTCOUNT(sales_data[customer_id])
 
-3. Dashboard Design
+3. **Dashboard Design**
 
 Visuals: Pie charts, bar charts, treemaps, tables
 
@@ -81,18 +81,18 @@ Filters: Year, Region, Product Line, Order Status, Category
 
 Styling: Consistent color theme & professional layout
 
-4. Delivery
+4. **Delivery**
 
 Dashboards exported as PBIX files
 
 Documentation & user guide included
 
-📊 Dashboard Details
-1. Sales Summary Dashboard
+📊 **Dashboard Details**
+1. **Sales Summary Dashboard**
 
 KPIs: Total Sales ($62.3M), Total Profit ($1.5M), Profit Ratio (2.4%)
 
-Visuals:
+**Visuals:**
 
 Sales by product category (Technology 37.7%)
 
@@ -100,7 +100,7 @@ Regional profit ratios (Canada, Central Africa leading)
 
 Salesperson performance table
 
-Insights:
+**Insights:**
 
 Technology is top revenue driver
 
@@ -112,7 +112,7 @@ Peak sales in 2014, decline in 2015
 
 KPIs: 326 Orders, 121 Customers
 
-Visuals:
+**Visuals:**
 
 Orders by year (2004 → 45%)
 
@@ -124,7 +124,7 @@ Top 10 customers (Euro+ Shopping Channel → $720K)
 
 Customer distribution by country (Germany → 13, France → 12)
 
-Insights:
+**Insights:**
 
 Classic Cars dominate order volume
 
@@ -132,7 +132,7 @@ High order fulfillment (93%) → efficiency
 
 Sales decline from 2004 → 2005
 
-💡 Business Impact
+💡 **Business Impact**
 
 Strategic: Identify top-performing markets & products
 
@@ -142,7 +142,7 @@ Efficiency: Validate fulfillment success rate
 
 Customer Focus: Recognize top customers for retention
 
-🚀 Outcomes & Skills Demonstrated
+🚀 **Outcomes & Skills Demonstrated**
 
 End-to-End BI Pipeline: ETL → Modeling → Visualization
 
@@ -152,19 +152,8 @@ Data storytelling & actionable insights
 
 Strategic & operational alignment
 
-📁 Repository Contents
 
-Sales_Summary_Dashboard.pbix
-
-Sales_Insight_Performance_Dashboard.pbix
-
-Sales_Analytics_Capstone_Documentation.pdf
-
-SQL_Scripts/ → Sample ETL queries
-
-User_Guide.pdf
-
-🔮 Future Enhancements
+🔮 **Future Enhancements**
 
 Add missing 2003 data for trend completeness
 
@@ -174,6 +163,6 @@ Integrate real-time data streams
 
 Optimize for mobile viewing
 
-📌 Conclusion
+📌 **Conclusion**
 
 This project demonstrates technical expertise (SQL, Snowflake, Power BI, DAX) and business acumen through actionable dashboards that support data-driven decisions.
